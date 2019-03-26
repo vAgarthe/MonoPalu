@@ -15,4 +15,3 @@ function afficheTexte() {
     background(236,36,94);
     text(champ.value(),20,120);
 }
-
