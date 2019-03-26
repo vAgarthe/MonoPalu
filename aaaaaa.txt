@@ -1,0 +1,18 @@
+var champ;
+
+function setup() {
+  createCanvas(710, 200);
+  background(236,36,94);
+  textAlign(LEFT)
+  textSize(20);
+  
+  champ = createInput();
+  champ.changed(afficheTexte);
+  champ.position(20, 65);
+}
+
+function afficheTexte() {
+    background(236,36,94);
+    text(champ.value(),20,120);
+}
+
